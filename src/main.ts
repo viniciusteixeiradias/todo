@@ -1,4 +1,8 @@
 import { createApp } from 'vue'
 import App from './App.vue'
 
-createApp(App).mount('#app')
+import { Quasar, options } from './plugins/quasar'
+
+createApp(App)
+  .use(Quasar, options)
+  .mount('#app')

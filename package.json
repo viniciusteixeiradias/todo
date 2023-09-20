@@ -10,12 +10,16 @@
     "test": "vitest"
   },
   "dependencies": {
+    "@quasar/extras": "^1.16.6",
+    "quasar": "^2.12.7",
     "vue": "^3.3.4"
   },
   "devDependencies": {
+    "@quasar/vite-plugin": "^1.5.0",
     "@vitejs/plugin-vue": "^4.2.3",
     "@vue/test-utils": "^2.2.10",
     "happy-dom": "^12.1.2",
+    "sass": "^1.32.12",
     "typescript": "^5.0.2",
     "vite": "^4.4.5",
     "vitest": "^0.34.4",
